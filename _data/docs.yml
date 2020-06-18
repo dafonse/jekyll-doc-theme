@@ -1,23 +1,22 @@
-examples:
- - title: Getting Started
-    docs:
-    - home
-    - themes
-    - customization
-    - minha-pagina
-
-  - title: Examples
-    docs:
-    - cheatsheet
-    - font-awesome
-    - bootstrap
+- title: Getting Started
+  docs:
+  - home
+  - themes
+  - customization
+  - minha-pagina
+  
+- title: Examples
+  docs:
+  - cheatsheet
+  - font-awesome
+  - bootstrap
 
 topic-00:
   - title: Homework
-    docs:
-    - todo-homework
+  docs:
+  - todo-homework
 
 topic-01:
   - title: Repositories
-    docs:
-    - overview
+  docs:
+  - overview
