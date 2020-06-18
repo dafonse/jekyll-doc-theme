@@ -13,10 +13,10 @@
 
 topic-00:
   - title: Homework
-  docs:
-  - todo-homework
+    docs:
+    - todo-homework
 
 topic-01:
   - title: Repositories
-  docs:
-  - overview
+    docs:
+    - overview
