@@ -15,12 +15,12 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}>
-                  <a href="{{ "/docs/home" | prepend: relative_url }}" class="dropdown-toggle" data-toggle="dropdown">Modules <div class="caret"></div></a>
+                  <a href="{{ "/docs/" | prepend: relative_url }}" class="dropdown-toggle" data-toggle="dropdown">Modules <div class="caret"></div></a>
                     <ul class="dropdown-menu">
-                      <li><a href="{{/docs/topic-00/}}/topic-00/">Introduction</a></li>
+                      <li><a href="{{/docs/}}/topic-00/">Introduction</a></li>
                       <hr>
                       <span>GIT Module</span>
-                      <li><a href="{{/docs/topic-00/}}/topic-01/">01://Repositories</a></li>
+                      <li><a href="{{/docs/topic-01/}}/topic-01/">01://Repositories</a></li>
                       <hr>
                       <!--<hr>
                       <span>Other</span>
