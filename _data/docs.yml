@@ -1,15 +1,16 @@
-- title: Getting Started
-  docs:
-  - home
-  - themes
-  - customization
-  - minha-pagina
+examples:
+ - title: Getting Started
+    docs:
+    - home
+    - themes
+    - customization
+    - minha-pagina
 
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - title: Examples
+    docs:
+    - cheatsheet
+    - font-awesome
+    - bootstrap
 
 topic-00:
   - title: Homework
@@ -17,6 +18,6 @@ topic-00:
     - todo-homework
 
 topic-01:
-  - title: “Repositories”
+  - title: Repositories
     docs:
     - overview
