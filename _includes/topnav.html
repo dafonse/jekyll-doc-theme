@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
                 <li {% if page.sectionid=='modules' %} class="active" {% endif %}>
-                  <a href="{{ "/docs/" | prepend: relative_url }}" class="dropdown-toggle" data-toggle="dropdown">Modules <div class="caret"></div></a>
+                  <a href="{{ "/modules/" | prepend: relative_url }}" class="dropdown-toggle" data-toggle="dropdown">Modules <div class="caret"></div></a>
                     <ul class="dropdown-menu">
                       <li><a href="{{site.baseurl}}/docs/topic-00/first/">Introduction</a></li>
                       <hr>
