@@ -10,3 +10,13 @@
   - cheatsheet
   - font-awesome
   - bootstrap
+
+topic-00:
+  - title: Homework
+    docs:
+    - todo-homework
+
+topic-01:
+  - title: “Repositories”
+    docs:
+    - overview
