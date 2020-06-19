@@ -26,3 +26,4 @@ $$TR=100x[((1+TBF)/R)-1]$$
 
 O valor da TR nunca é negativo. Ou seja, o seu valor mínimo será igual a zero.
 
+https://www.tororadar.com.br/investimento/taxa-referencial-o-que-e-tr-mensal-calculo
