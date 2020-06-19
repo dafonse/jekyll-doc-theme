@@ -1,10 +1,3 @@
-- title: Getting Started
-  docs:
-  - home
-  - themes
-  - customization
-  - minha-pagina
-  
 - title: Examples
   docs:
   - cheatsheet
@@ -15,6 +8,15 @@
     docs:
     - first
     
-- title: Segundo
+- title: Finanças
   docs:
-  - second
+  - index
+  - indicadores
+
+- title: Getting Started
+  docs:
+  - home
+  - themes
+  - customization
+  - minha-pagina
+  
