@@ -15,4 +15,8 @@
   docs:
   - finance/index
   - finance/indicadores
+  - title: Renda Fixa
+    docs:
+    - finance/renda-fixa/index
+    - finance/renda-fixa/poupanca
   
