@@ -7,12 +7,12 @@
 
 - title: Examples
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - examples/cheatsheet
+  - examples/font-awesome
+  - examples/bootstrap
     
 - title: Finanças
   docs:
-  - fin/index
-  - fin/indicadores
+  - finance/index
+  - finance/indicadores
   
