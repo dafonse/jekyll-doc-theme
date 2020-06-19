@@ -1,0 +1,20 @@
+- title: Getting Started
+  docs:
+  - home
+  - themes
+  - customization
+  - minha-pagina
+  
+- title: Examples
+  docs:
+  - cheatsheet
+  - font-awesome
+  - bootstrap
+  dropdown:
+  - title: Primeiro
+    docs:
+    - first
+    
+- title: Segundo
+  docs:
+  - second
