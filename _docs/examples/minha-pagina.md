@@ -1,6 +1,6 @@
 ---
 title: My Page
-permalink: /docs/minha-pagina/
+permalink: /docs/examples/minha-pagina/
 ---
 
 $$5+5=10$$
