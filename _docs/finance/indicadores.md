@@ -1,6 +1,6 @@
 ---
 title: Indicadores
-permalink: /docs/fin/indicadores/
+permalink: /docs/finance/indicadores/
 ---
 
 ## TR (Taxa Referencial)
