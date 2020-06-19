@@ -2,7 +2,7 @@
 title: Finanças
 module: finance
 permalink: /docs/finance/index/
-redirect_from: /docs/finance/
+redirect_from: /finance/
 categories: uncategorized
 tags:
 ---
