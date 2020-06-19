@@ -11,7 +11,7 @@ tags:
 
 É uma taxa de juros da economia brasileira, sendo divulgada, nos principais portais econômicos em valores diários, mensais e histórico anual. O valor da TR é de responsabilidade do Banco Central do Brasil (BACEN). Este órgão realiza uma pesquisa com os 30 maiores bancos do país, analisando as taxas de juros dos CDBs.O valor desta pesquisa diária foi nomeada TBF (Taxa Básica Financeira). Para encontrar a taxa TR será preciso calcular o valor R. Para isso, a fórmula utilizada é:
 
-$$R=a+bxTBF$$
+$$R=a+b*TBF$$
 
 Onde:
 
@@ -22,7 +22,7 @@ Onde:
 
 Com o valor de $$R$$, substitua os valores na fórmula abaixo e encontre o valor da TR:
 
-$$TR=100x[((1+TBF)/R)-1]
+$$TR=100x[((1+TBF)/R)-1]$$
 
 O valor da TR nunca é negativo. Ou seja, o seu valor mínimo será igual a zero.
 
