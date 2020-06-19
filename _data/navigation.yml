@@ -7,11 +7,9 @@
   - minha-pagina
   
 - title: Finanças
-  docs:
-  - um
   sublinks:
   - title: Home
-    url: docs/fin/home
+    url: docs/fin/index
   - title: separator
   - title: Minha Página
     url: docs/minha-pagina
