@@ -13,6 +13,41 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
+              {% assign links = site.data.docs %}
+              
+              {% for link in links %}
+                {% assign class = nil %}
+              
+                {% if page.url contains link.url %}
+                  {% assign class = 'active' %}
+                {% endif %}
+              
+                {% if link.sublinks %}
+                  <li class="dropdown {{ class }}">
+                    <a href="{% if link.url %}{{ site.baseurl }}/{{ link.url }}{% else %}{{ link.external_url }}{% endif %}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                      {% for sublink in link.sublinks %}
+                      
+                        {% if sublink.title == 'separator' %}
+                          <li role="separator" class="divider"></li>
+                        {% else %}
+                          <li>
+                            <a href="{% if sublink.url %}{{ site.baseurl }}/{{ sublink.url }}{% else %}{{ sublink.external_url }}{% endif %}">{{ sublink.title }}</a>
+                          </li>
+                        {% endif %}
+                      
+                      {% endfor %}
+                      
+                    </ul>
+                  </li>
+                {% else %}
+                  <li class="{{ class }}">
+                    <a href="{% if link.url %}{{ site.baseurl }}/{{ link.url }}{% else %}{{ link.external_url }}{% endif %}">{{ link.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+              
                 <li {% if page.sectionid=='docs/standard' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
                 <li {% if page.sectionid=='modules' %} class="active" {% endif %}>
                   <a href="{{ "/modules/" | prepend: relative_url }}" class="dropdown-toggle" data-toggle="dropdown">Modules <div class="caret"></div></a>
