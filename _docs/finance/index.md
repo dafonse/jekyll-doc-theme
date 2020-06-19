@@ -1,6 +1,6 @@
 ---
 title: Finanças
-permalink: /docs/fin/index/
+permalink: /docs/finance/index/
 ---
 
 ## Getting started
