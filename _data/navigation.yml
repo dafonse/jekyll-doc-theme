@@ -6,12 +6,10 @@
   - customization
   - minha-pagina
   
-- title: Examples
-  url: "docs/bootstrap"
+- title: Finanças
+  url: "fin/home"
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - um
   sublinks:
   - title: Minha Página
     url: "docs/minha-pagina"
