@@ -1,15 +1,15 @@
 - title: Docs
   docs:
+  - customization
   - home
   - themes
-  - customization
-  - minha-pagina
 
 - title: Examples
   docs:
+  - examples/bootstrap
   - examples/cheatsheet
   - examples/font-awesome
-  - examples/bootstrap
+  - examples/minha-pagina
     
 - title: Finanças
   docs:
