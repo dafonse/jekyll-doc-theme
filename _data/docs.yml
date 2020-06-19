@@ -10,8 +10,8 @@
     
 - title: Finanças
   docs:
-  - index
-  - indicadores
+  - fin/index
+  - fin/indicadores
 
 - title: Getting Started
   docs:
