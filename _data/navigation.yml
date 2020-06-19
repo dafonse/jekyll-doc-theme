@@ -22,3 +22,6 @@
   url: docs/bootstrap
   docs:
   - second
+  
+- title: Tests
+  url: "docs/minha-pagina"
