@@ -1,5 +1,5 @@
 - title: Docs
-  url: "docs/home"
+  url: docs/home
   docs:
   - home
   - themes
@@ -7,11 +7,11 @@
   - minha-pagina
   
 - title: Finanças
-  url: "fin/home"
+  url: docs/fin/home
   docs:
   - um
   sublinks:
   - title: Minha Página
-    url: "docs/minha-pagina"
+    url: docs/minha-pagina
     docs:
     - first
