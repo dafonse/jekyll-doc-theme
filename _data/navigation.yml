@@ -10,10 +10,10 @@
   docs:
   - um
   sublinks:
-    - title: Home
-      url: url: docs/fin/home
-    - title: separator
-    - title: Minha Página
-      url: docs/minha-pagina
-      docs:
-      - first
+  - title: Home
+    url: docs/fin/home
+  - title: separator
+  - title: Minha Página
+    url: docs/minha-pagina
+    docs:
+    - first
