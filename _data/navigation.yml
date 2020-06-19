@@ -11,6 +11,7 @@
   - title: separator
   - title: Indicadores
     url: docs/finance/indicadores
+  - title: separator
   - title: Renda Fixa
     url: docs/finance/renda-fixa/index
     sublinks:
