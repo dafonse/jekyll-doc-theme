@@ -48,7 +48,7 @@
                 {% endif %}
               {% endfor %}
               
-              
+              <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a></li>
               
                 <!--<li {% if page.sectionid=='docs/standard' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
                 <li {% if page.sectionid=='modules' %} class="active" {% endif %}>
