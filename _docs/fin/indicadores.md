@@ -1,5 +1,5 @@
 ---
-title: Finanças
+title: Indicadores
 permalink: /docs/fin/indicadores/
 ---
 
