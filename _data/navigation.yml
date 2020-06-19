@@ -7,10 +7,11 @@
   - minha-pagina
   
 - title: Finanças
-  url: docs/fin/home
   docs:
   - um
   sublinks:
+  - title: Home
+    url: url: docs/fin/home
   - title: Minha Página
     url: docs/minha-pagina
     docs:
