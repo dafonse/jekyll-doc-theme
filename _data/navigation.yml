@@ -13,7 +13,4 @@
     url: docs/finance/indicadores
   - title: separator
   - title: Renda Fixa
-    url: docs/finance/renda-fixa/index
-    sublinks:
-    - title: Poupança
-      url: docs/finance/renda-fixa/poupanca    
+    url: docs/finance/renda-fixa/index  
