@@ -1,4 +1,5 @@
 - title: Getting Started
+  url: "docs/home"
   docs:
   - home
   - themes
@@ -6,15 +7,18 @@
   - minha-pagina
   
 - title: Examples
+  url: "docs/bootstrap"
   docs:
   - cheatsheet
   - font-awesome
   - bootstrap
   sublinks:
   - title: Primeiro
+    url: "docs/cheatsheet"
     docs:
     - first
     
 - title: Segundo
+  url: docs/bootstrap
   docs:
   - second
